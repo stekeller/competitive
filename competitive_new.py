@@ -12,7 +12,7 @@ from math import pi, atan2
 # global vars
 max_x = 100 # xrange
 max_y = 100 # yrange
-number_of_customers = 50
+number_of_customers = 20
 point_X = [1,1] # make sure it is set properly
 customer_points = []
 
@@ -300,5 +300,5 @@ def solve_problem(number):
         find_optimal_location_for_Y()
     elif(number==2):
         minimize_buying_power_of_Y()
-solve_problem(1)
-#solve_problem(2)
+#solve_problem(1)
+solve_problem(2)
